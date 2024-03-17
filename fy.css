@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Fabriga';
+  src: url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga.eot');
+  src: url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga.woff2') format('woff2'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga.woff') format('woff'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga.ttf') format('truetype'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga.svg#Fabriga') format('svg'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fabriga-Bold';
+  src: url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga-Bold.eot');
+  src: url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga-Bold.woff2') format('woff2'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga-Bold.woff') format('woff'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga-Bold.ttf') format('truetype'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga-Bold.svg#Fabriga-Bold') format('svg'),
+       url('https://dhrn7c7snsz2y.cloudfront.net/2a8884bf-b83f-4fd9-b75d-25f5ab0ad172/assets/fonts/Fabriga-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Fabriga', 'Helvetica Neue', Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #222;
+}
+
+@media screen and (max-width: 320px) {
+    .split > h6 {
+        width: 50%
+    }
+}
+
+
+.tar {text-align: right;}
+.va-sub {vertical-align: sub;}
+.capitalize {text-transform: capitalize;}
+.strikethrough {text-decoration: line-through;}
+.transparent {color: transparent}
+.black {color: #222}
+.white {color: #fff}
+.lightgreen {color: #A3FEDB}
+.green {color: #3DF2AC}
+.grey {color: #5F5F5F}
+.lightgrey {color: #c0c0c0}
+.lightergrey {color: #E9E9E9}
+.lightestgrey {color: #F6F6F8}
+.pink {color: #FF7A7A}
+.blue {color: #147DEF}
+.red {color: #FF0000}
+
+.mw75 {max-width: 75%;}
+.mw66 {max-width: 66%;}
+.w50 {width:50%;}
+
+.bg-transparent {background-color: transparent}
+.bg-black {background-color: #222}
+.bg-white {background-color: #fff}
+.bg-lightgreen {background-color: #A3FEDB}
+.bg-green {background-color: #3DF2AC}
+.bg-grey {background-color: #5F5F5F}
+.bg-lightgrey {background-color: #c0c0c0}
+.bg-lightergrey {background-color: #E9E9E9}
+.bg-lightestgrey {background-color: #F6F6F8}
+.bg-pink {background-color: #FF7A7A}
+.bg-blue {background-color: #147DEF}
+.bg-red {background-color: #FF0000}
+
+hr {
+  height: 1px;
+  border: 0;
+  background: #e9e9e9;
+}
+
+h3 {
+  font-weight: normal;
+}

@@ -1,0 +1,4 @@
+(function(){
+'use strict';var V_=function(a){a=$APP.I(a);$APP.E.h(a,$APP.sD);$APP.kn($APP.C([WQa],0));$APP.Qqa(a);$APP.h(document.getElementById("below-grid-guided-browse"))&&$APP.dI();return $APP.JH()},XQa=function(){var a=$APP.J.B($APP.ZN(),$APP.vB,new $APP.f(null,1,[$APP.xD,$APP.Xva],null));$APP.Zq(new $APP.M(null,2,5,$APP.N,[$APP.TO,a],null));$APP.z.h("loading",document.readyState)?window.addEventListener("DOMContentLoaded",function(){return V_(a)}):V_(a)},WQa=new $APP.H("fy.web.shop-app","shop-app-init",
+"fy.web.shop-app/shop-app-init",452885441);$APP.Jc("shop-app");$APP.sa("fy.web.shop_app.on_js_reload",function(){console.log("on-js-reload");return V_($APP.ZN())});$APP.Gc.Uc();try{XQa()}catch(a){throw console.error("An error occurred when calling (fy.web.shop-app/shop-app-init)"),a;};
+}).call(this);
